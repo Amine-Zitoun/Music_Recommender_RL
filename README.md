@@ -49,6 +49,12 @@ The script offers three modes of operation:
    - This mode is used to test the trained model in a real-world scenario.
    - Usage: `enter mode : test`
    - This mode allows you to experience the model's performance live.
+  
+### Possible Implementation
+1. **Discord Bot**
+   can build a discord bot using python and detect the spotify activity of a user and then use the spotify api to skip
+2. **Android App**
+   build an android app using kivy or tkinter and detect when the song is playing on phone and skip when needed
 
 ### Example Commands
 ```sh
