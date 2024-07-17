@@ -25,7 +25,27 @@ During the training, we compare the performance of two algorithms:
 ![Comparison of Q-Learning and Average State Values Algorithm](plots/q_algo.png)
 
 ## Script Usage
-The script offers three modes of operation:
+Create a spotify developer act to access their api
+then clone the repo using
+
+`git clone https://github.com/Amine-Zitoun/Music_Recommender_RL`
+
+then intall the requirements
+
+`python install -m requirements.txt`
+
+then run the script 
+`python agent.py`
+
+you'll get the following
+```
+Made By zitoun
+    -tr to see how the model trained more about that in readme.md
+    -f to fine tune epsilon or alpha
+    -test to test the model
+enter mode: 
+```
+
 
 1. **Training Mode**:
    - This mode is used to train the model and visualize the comparison between Q-Learning and Average State Values.
