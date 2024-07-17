@@ -1,7 +1,3 @@
-Sure! Here is an updated README that includes the display of the plots.
-
----
-
 # Song Recommendation Model Using Reinforcement Learning
 
 ## Project Description
