@@ -11,10 +11,10 @@ The states in this model represent the currently playing song.
 The actions correspond to the songs that have not yet been played.
 
 ### Reward
-The reward mechanism is simple: if the song is not skipped, a positive reward is given; otherwise, a negative reward is assigned.
+The reward mechanism is simple: if the song is not skipped,1  is given; otherwise, 0 is assigned.
 
 ## Training Process
-The training process involves modeling the list of songs using \( t_{i,j} \) such that \( t_{i,j} \) are the songs that will not be skipped after \( t_i \). This setup simulates a real-world environment, making the problem non-stationary. Consequently, a constant learning rate is used.
+The training process involves modeling the list of songs using $\( t_{i,j} \)$ such that $\( t_{i,j} \)_j$ are the songs that will not be skipped after $t_i$. This setup simulates a real-world environment, making the problem non-stationary. Consequently, a constant learning rate is used.
 
 ### Comparison of Algorithms
 During the training, we compare the performance of two algorithms:
